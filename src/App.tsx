@@ -16,10 +16,13 @@ function App() {
                 </ul>
             </Menu>
             <Box>
-                <StyledBtn as={Link} href={'#'}>Link Component</StyledBtn>
-                <StyledBtn as='a' href={'#'}>Link</StyledBtn>
-                <StyledBtn>hello!</StyledBtn>
-                <SuperButton>Super Button</SuperButton>
+                {/*<StyledBtn as={Link} href={'#'}>Link Component</StyledBtn>*/}
+                {/*<StyledBtn as='a' href={'#'}>Link</StyledBtn>*/}
+                {/*<StyledBtn color={'red'} fontSize={'20px'}>hello!</StyledBtn>*/}
+                {/*<StyledBtn color={'orange'}>hello!</StyledBtn>*/}
+                <StyledBtn btnType={'primary'} active>hello!</StyledBtn>
+                <StyledBtn btnType={'outlined'}>hello!</StyledBtn>
+                <SuperButton fontSize={'30px'}>Super Button</SuperButton>
             </Box>
         </div>
     );
